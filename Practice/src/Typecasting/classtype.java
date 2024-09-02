@@ -3,10 +3,10 @@ package Typecasting;
 public class classtype {
     public static void main(String[] args) {
         int a = 10;
-        webdriver ref1 = new chromedriver(); //upcasting ---> super class type to sub class type
+        webdriver ref1 = new chromedriver(); //upcasting ---> sub class type to super class type
          ref1.get();
 
-        chromedriver ref2 = (chromedriver)ref1;
+        chromedriver ref2 = (chromedriver)ref1; //downcasting ---> super class into sub
          ref2.get();
     }
 }
