@@ -13,6 +13,10 @@ public class mainclass {
 abstract class BMW{
    abstract  void engine();
     abstract void accelerator();
+
+    void add(){
+        System.out.println("test");
+    }
 }
 class showroom extends BMW{
 

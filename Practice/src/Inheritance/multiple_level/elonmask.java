@@ -7,7 +7,7 @@ public class elonmask implements twitter,whatsapp {
         obj.own();
         obj.own1();
         }
-       public void own(){
+        public void own(){
            System.out.println("I have whatsapp and tweeter");
         }
         public void own1(){

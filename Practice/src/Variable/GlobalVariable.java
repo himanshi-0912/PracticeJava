@@ -6,8 +6,9 @@ public class GlobalVariable {
 
     public static void main(String[] args) {
         GlobalVariable obj = new GlobalVariable();
-        int a = obj.num1;
-        int b = obj.num2;
+       int a = obj.num1;
+       int b = obj.num2;
+
         System.out.println("Addition of two numbers is " + obj.add(a, b));
     }
 
